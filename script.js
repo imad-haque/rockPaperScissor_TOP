@@ -16,7 +16,7 @@
     }
 
     function getHumanChoice(){
-        let humanChoice = toLowerCase(prompt("Choose your option: (ROCK, PAPER, SCISSORS)"));
+        let humanChoice =  prompt("Choose your option: (ROCK, PAPER, SCISSORS)");
         console.log(prompt);
         if(humanChoice === "rock"){
             console.log("Your Choice: Rock");
